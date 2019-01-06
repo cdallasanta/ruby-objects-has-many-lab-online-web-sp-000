@@ -51,7 +51,7 @@ def queensAttack(n, r_q, c_q, obstacles)
         r = @r_q - 1
         c = @c_q
         checking = [r,c]
-        until c == 0
+        until r == 0
             if @obstacles.include?(checking)
                 break
             else

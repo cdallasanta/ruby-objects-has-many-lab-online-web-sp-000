@@ -130,7 +130,7 @@ def queensAttack(n, r_q, c_q, obstacles)
     check_down_left
     check_down_right
 
-    @squares_attacked
+    puts @squares_attacked
 end
 
 queensAttack(4, 4, 4, [])

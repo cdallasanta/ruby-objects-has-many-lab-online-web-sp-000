@@ -133,4 +133,4 @@ def queensAttack(n, r_q, c_q, obstacles)
     puts @squares_attacked
 end
 
-queensAttack(4, 4, 4, [])
+queensAttack(5, 4, 3, [[5,5],[4,2],[2,3]])

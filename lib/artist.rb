@@ -1,4 +1,4 @@
-def queensAttack(n, k = 0, r_q, c_q, obstacles = [])
+def queensAttack(n, r_q, c_q, obstacles)
     @n = n
     @r_q = r_q
     @c_q = c_q
@@ -133,4 +133,4 @@ def queensAttack(n, k = 0, r_q, c_q, obstacles = [])
     squares_attacked
 end
 
-queensAttack(4, 0, 4, 4)
+queensAttack(4, 4, 4, [])
